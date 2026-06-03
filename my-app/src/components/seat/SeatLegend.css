@@ -1,0 +1,17 @@
+.legend {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.box {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}

@@ -1,0 +1,66 @@
+.seat-card {
+
+  width: 100%;
+  height: 90px;
+
+  border: none;
+
+  border-radius: 18px;
+
+  cursor: pointer;
+
+  transition: all .25s ease;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  color: white;
+
+  font-weight: 600;
+}
+
+.seat-card:hover {
+
+  transform:
+    translateY(-4px);
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,.15);
+}
+
+.available {
+
+  background:
+    linear-gradient(
+      135deg,
+      #10b981,
+      #34d399
+    );
+}
+
+.reserved {
+
+  background:
+    linear-gradient(
+      135deg,
+      #7c3aed,
+      #a855f7
+    );
+}
+
+.seat-number {
+
+  font-size: 1.2rem;
+}
+
+.seat-state {
+
+  font-size: .75rem;
+
+  margin-top: 8px;
+}

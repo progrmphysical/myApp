@@ -1,0 +1,49 @@
+.hero {
+  background:
+    linear-gradient(
+      135deg,
+      #5b21b6,
+      #7c3aed
+    );
+
+  color: white;
+
+  padding: 80px 40px;
+
+  border-radius: 24px;
+
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: .9;
+}
+
+.hero-buttons {
+  margin-top: 32px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-buttons a {
+  text-decoration: none;
+
+  background: white;
+  color: #5b21b6;
+
+  padding: 12px 24px;
+
+  border-radius: 12px;
+
+  font-weight: 600;
+}

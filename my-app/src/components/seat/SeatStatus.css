@@ -1,0 +1,20 @@
+.seat-status {
+  display: flex;
+
+  gap: 24px;
+
+  margin-bottom: 32px;
+}
+
+.seat-status > div {
+  flex: 1;
+
+  background: white;
+
+  border-radius: 16px;
+
+  padding: 20px;
+
+  box-shadow:
+    0 2px 12px rgba(0,0,0,.06);
+}
